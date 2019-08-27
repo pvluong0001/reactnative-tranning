@@ -15,6 +15,8 @@ import AnimatedBar from './src/animated-bar/AnimatedBar'
 import Menu from './src/menu/Menu'
 import Contact from './src/contact/Contact'
 import NativeBase from './src/native-base/NativeBase'
+import Navigation from './src/navigation/Navigation';
+
 
 const App = () => {
 
@@ -23,8 +25,9 @@ const App = () => {
       {/*<Avatar/>*/}
       {/*<AnimatedBar />*/}
       {/*<Menu />*/}
-      {/*<Contact />*/}
-      <NativeBase/>
+      <Contact />
+      {/* <NativeBase/> */}
+      {/* <Navigation/> */}
     </Fragment>
   )
 }
